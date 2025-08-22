@@ -33,8 +33,6 @@ function ScreenshotFigure({
           fill
           sizes="(max-width: 768px) 100vw, 600px"
           className="object-cover"
-          // If sharp is flaky locally, you can uncomment:
-          // unoptimized
         />
       </div>
       {caption ? (
@@ -44,8 +42,13 @@ function ScreenshotFigure({
   );
 }
 
-export default function Page({ params }: { params: { slug: string } }) {
-  const data = contentServerPages[params.slug];
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;              // ✅ Next 15: params is a Promise
+  const data = contentServerPages[slug];
 
   if (!data) {
     return (
