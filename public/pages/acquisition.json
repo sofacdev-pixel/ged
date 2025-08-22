@@ -50,10 +50,15 @@
       "title": "Voir tous les produits",
       "subtitle": "Parcourez nos guides et exemples par produit.",
       "products": [
-        { "icon": "/image/illutration/perso.svg", "title": "Prêt personnel", "href": "/acquisition-des-documents/pret-personnel" },
-        { "icon": "/image/illutration/auto.svg", "title": "Crédit auto", "href": "/acquisition-des-documents/credit-auto" },
-        { "icon": "/image/illutration/leasing.svg", "title": "Crédit leasing", "href": "/acquisition-des-documents/credit-leasing" },
-        { "icon": "/image/illutration/animation.svg", "title": "Animation commerciale", "href": "/acquisition-des-documents/animation-commerciale" }
+        { "icon": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/perso.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL3BlcnNvLnN2ZyIsImlhdCI6MTc1NTg3MDY2MiwiZXhwIjoxNzg3NDA2NjYyfQ.BwQ7EPkheoz3vFObjcdkcf-bXhRSk0KJmL5nMZg6DmY",
+         "title": "Prêt personnel", "href": "/acquisition-des-documents/pret-personnel" },
+        { "icon": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/auto.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL2F1dG8uc3ZnIiwiaWF0IjoxNzU1ODcwNzQzLCJleHAiOjE3ODc0MDY3NDN9.GCSnKevtPjCvZg2TYaymgSyyvigWdiWQRJ7hWNLkKTE",
+         "title": "Crédit auto", 
+         "href": "/acquisition-des-documents/credit-auto" },
+        { "icon": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/leasing.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL2xlYXNpbmcuc3ZnIiwiaWF0IjoxNzU1ODcwOTEwLCJleHAiOjE3ODc0MDY5MTB9.QgasMJIaZk8UjmJhb09MMEo6TsEH8qd8LCoUPXPBOS0", 
+        "title": "Crédit leasing", "href": "/acquisition-des-documents/credit-leasing" },
+        { "icon": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/animation.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL2FuaW1hdGlvbi5zdmciLCJpYXQiOjE3NTU4NzA5MjcsImV4cCI6MTc4NzQwNjkyN30.RjkOyBUVxxM1UloaoYcbiex8C9u7_bOYsfyxZEIxoUw", 
+        "title": "Animation commerciale", "href": "/acquisition-des-documents/animation-commerciale" }
       ]
     },
     

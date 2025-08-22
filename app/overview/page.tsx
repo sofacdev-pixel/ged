@@ -21,9 +21,9 @@ type SectionCard = {
 };
 
 const STANDARD_IMAGES = [
-  { src: "/image/illutration/login.svg", alt: "Illustration 1" },
-  { src: "/image/illutration/logout.svg", alt: "Illustration 2" },
-  { src: "/image/illutration/password.svg", alt: "Illustration 3" },
+  { src: "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/login.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL2xvZ2luLnN2ZyIsImlhdCI6MTc1NTg3MDQ4MiwiZXhwIjoxNzg3NDA2NDgyfQ.96O9A1Tx9V7DaK1t42NlrILr7Bjz_zQiwt95qZSiL60", alt: "Illustration 1" },
+  { src: "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/logout.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL2xvZ291dC5zdmciLCJpYXQiOjE3NTU4NzA2MDMsImV4cCI6MTc4NzQwNjYwM30.OCy6dMLJ28xtWRF5bgdLuY9gC1TJuOmgvyIbbrSvP7o", alt: "Illustration 2" },
+  { src: "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/password.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL3Bhc3N3b3JkLnN2ZyIsImlhdCI6MTc1NTg3MDYyOSwiZXhwIjoxNzg3NDA2NjI5fQ.d5vNKe64KDmum5YPUYwBddz0w9EqDquRR6pMzsShkaM", alt: "Illustration 3" },
 ];
 
 // Simple gradient fallbacks (no images required)

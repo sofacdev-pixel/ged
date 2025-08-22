@@ -2,7 +2,7 @@
     "title": "Manuel d'utilisation <span class=\"text-gray-500\">SOFAGED</span>",
     "subtitle": "Recherchez dans les guides, sections et fonctionnalités de Content Server.",
     "hero": {
-      "video": "/media/magic.mp4",
+      "video": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/public/video/magic.mp4",
       "poster": "/media/hero-poster.jpg",
       "alt": "Vidéo de présentation"
     },
@@ -17,7 +17,7 @@
         "title": "Vue d’ensemble",
         "href": "/overview",
         "image": {
-          "src": "/image/illutration/overview.svg",
+          "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/view.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL3ZpZXcuc3ZnIiwiaWF0IjoxNzU1ODcwOTgzLCJleHAiOjE3ODc0MDY5ODN9.B9sR6iQEqtUquYX_p1WhCNKbzVaz9-bV5jBXofEiOIo",
           "alt": "Vue d’ensemble"
         }
       },
@@ -25,7 +25,7 @@
         "title": "Recherche",
         "href": "/recherche",
         "image": {
-            "src": "/image/illutration/recherche.svg",
+            "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/recherche.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL3JlY2hlcmNoZS5zdmciLCJpYXQiOjE3NTU4NzEwMDAsImV4cCI6MTc4NzQwNzAwMH0.4fqZBnfWQbbgeqtiznFgxy9q3U2kPiv2YqPmyJKBeRg",
           "alt": "Recherche"
         }
       },
@@ -33,7 +33,7 @@
         "title": "Acquisition des documents",
         "href": "/acquisition-des-documents",
         "image": {
-            "src": "/image/illutration/acquisition.svg",
+            "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/acquisition.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL2FjcXVpc2l0aW9uLnN2ZyIsImlhdCI6MTc1NTg3MTAzNiwiZXhwIjoxNzg3NDA3MDM2fQ.FDDvoAeR79qZGDD9QoZSKpmbas8zTV1iajc3VGDPw_k",
           "alt": "Acquisition des documents"
         }
       },
@@ -41,7 +41,7 @@
         "title": "Consultation des documents",
         "href": "/consultation-des-documents",
         "image": {
-            "src": "/image/illutration/view.svg",
+            "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/illustrations/view.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJpbGx1c3RyYXRpb25zL3ZpZXcuc3ZnIiwiaWF0IjoxNzU1ODcxMDE5LCJleHAiOjE3ODc0MDcwMTl9.GppN9eelCmTRKG-mEz8fajSfi2Qp5hAiY7F7LDmszU0",
           "alt": "Content Server"
         }
       }
