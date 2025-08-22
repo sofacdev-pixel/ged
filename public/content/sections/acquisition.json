@@ -1,0 +1,740 @@
+[
+    { "type": "h1", "text": "III. L’acquisition des documents" },
+  
+    { "type": "h2", "text": "A. La numérisation via EntrepriseScan" },
+    {
+      "type": "paragraph",
+      "text": "L’espace de numérisation **EntrepriseScan** est une application client lourd qui communique directement via des API avec la GED **opentext**. Cet espace est conçu pour gérer l’acquisition des documents en format papier en les numérisant avec des scanners connectés avec le poste de l’utilisateur, ou en format numérique en les chargeant via la même interface."
+    },
+    {
+      "type": "note",
+      "text": "Le processus d’alimentation de la GED diffère selon le type de crédit et le type de dossier."
+    },
+
+  
+    { "type": "h3", "text": "01. Prêt personnel (PP)" },
+    { "type": "h4", "text": "a. Dossier justificatif" },
+    {
+      "type": "paragraph",
+      "text": "Dans le cadre de la digitalisation et l’optimisation des processus, la GED est connecté aux applications métier via des API, le dossier de crédit personnel est initié sur INTAJ et l’utilisateur attache le dossier complet sous forme de fichier PDF global. Le même document est injecté automatiquement dans la GED via l’API qui crée un dossier par n° d’affaire et un sous dossier nommé «Dossier justificatif» et classe et indexes le document dedans. "
+    },
+    {
+      "title":"Instruction",
+      "type":"callout", "text":"Le dossier d’affaire est créé selon un plan de classement défini suivant cet arborescence: Société de gestion, Agence,  Famille crédit PP,  Apporteur, N° d'affaire."
+  },
+  {
+    "type": "image",
+    "src": "/image/4.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "title":"Instruction",
+    "type":"callout", "text":"Double cliquer sur le dossier n° d’affaire"
+},
+{
+  "type": "image",
+  "src": "/image/5.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double cliquer sur le dossier Justificatif"
+},
+{
+  "type": "image",
+  "src": "/image/6.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double cliquer sur le document global pour consulter les pièces le constituant. L’utilisateur peut consulter aussi ses indexes."
+},
+{ "type": "h4", "text": "b. Dossier contractuel " },
+
+{
+  "type": "paragraph",
+  "text":"Après étude et validation du dossier de crédit l’utilisateur procède à la numérisation du dossier contractuel signé. "
+},
+{
+  "type": "paragraph",
+  "text":"Pour numériser le dossier contractuel, l’utilisateur se connecte à l’espace EntrepriseScan et choisi le profil «Dossier contractuel avec QR» puis numérise le dossier contractuel. "
+},
+
+{"type":"paragraph",
+"text":"Le système récupère le n° d’affaire après la lecture du code QR puis fait appel au web service pour récupérer les métadonnées de ce dossier (Société de gestion, agence, CIN, RC, famille de crédit…). "},
+{
+  "type": "image",
+  "src": "/image/7.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Le système lit les codes QR sur les pièces pour les séparer par type de document."
+},
+{
+  "type": "image",
+  "src": "/image/8.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Cliquer sur le bouton «Archiver tout» pour archiver les dans la GED."
+},
+{
+  "type": "image",
+  "src": "/image/9.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Le système archives toutes les pièces en créant un sous dossier nommé «Dossier contractuel» comme sous dossier du numéro d’affaire et classe les pièces dans ce sous dossier."
+},
+{
+  "type": "image",
+  "src": "/image/10.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double clique sur le dossier contractuel pour vérifier le bon classement des pièces numérisées"
+},
+{
+  "type": "image",
+  "src": "/image/11.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Choisir et double cliquer sur un document pour le consulter."
+},
+{ "type": "h4", "text": "c. Autres dossiers" },
+{
+  "type":"paragraph" , "text":"Les pièces des autres dossiers qui peuvent être créés tout au long du cycle de vie du dossier crédit à savoir, le dossier complémentaire, dossier sinistre et autres seront traitées en suivant la même démarche que les dossier développé au dessus. Il suffit que l’utilisateur spécifie le profil adéquat et aie les autorisation GED pour réaliser cette opération. "
+},
+{ "type": "h3", "text": "02. Crédit Auto " },
+{ "type": "h4", "text": "a. Dossier justificatif" },
+{
+  "type":"paragraph","text":"La GED est connecté avec les application métier via des API, le dossier de crédit auto est initié sur INTAJ et l’utilisateur attache le dossier complet sous forme de fichier PDF global. Le même document est classé  dans la GED via l’API qui crée automatiquement un dossier par n° d’affaire et un sous dossier nommé «Dossier justificatif» et classe et indexe le document dedans. "
+},
+{
+  "type": "note",
+  "text": "Le dossier est créé selon un plan de classement défini suivant cet arborescence: Société de gestion, Agence, Famille crédit Automobile, Apporteur, N° d'affaire."
+},
+{
+  "type": "image",
+  "src": "/image/12.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double cliquer sur le dossier n° d’affaire"
+},
+{
+  "type": "image",
+  "src": "/image/13.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double cliquer sur le dossier Justificatif"
+},
+{
+  "type": "image",
+  "src": "/image/14.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double cliquer sur le document global pour consulter les pièces constituant le dossier justificatif. L’utilisateur peut aussi consulter les indexes du document classé."
+},
+{ "type": "h4", "text": "b. Dossier contractuel " },
+{
+  "type": "image",
+  "src": "/image/15.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Le système lit les codes QR sur les pièces pour les séparer par type de document."
+},
+{
+  "type": "image",
+  "src": "/image/16.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Cliquer sur le bouton «Archiver tout» pour archiver les dans la GED."
+},
+{
+  "type": "image",
+  "src": "/image/17.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction 1/2",
+  "type":"callout", "text":"Le système archives toutes les pièces en créant un sous dossier nommé «Dossier contractuel» comme sous dossier du numéro d’affaire et classe les pièces dans ce sous dossier."
+},
+{
+  "title":"Instruction 2/2",
+  "type":"callout", "text":"Passer à l’interface des dossiers dans la GED pour vérifier le classement "
+},
+{
+  "type": "image",
+  "src": "/image/18.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double clique sur le dossier contractuel pour vérifier le bon classement des pièces numérisées"
+},
+{
+  "type": "image",
+  "src": "/image/19.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Choisir et double cliquer sur un document pour le consulter."
+},
+{"type":"h4", "text":"c. Dossier réclamation "},
+{"type":"paragraph"
+, "text":"En cas de réclamation déposée par un client et après réception du document de réclamation, l’utilisateur procède de la même façon que les pièces du dossier contractuel. "},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Se connecter à l’espace d’EntrepriseScan puis choisir le profil **Dossier réclamation»**"
+},
+{
+  "type": "image",
+  "src": "/image/20.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction 1/2",
+  "type":"callout", "text":"Récupérer le document «Réclamation» en format électronique ou scanner le directement en utilisant le scanner connecté au poste de l’utilisateur. "
+},
+{
+  "title":"Instruction 2/2", "tone":"tip",
+  "type":"callout", "text":"Sélectionner tous les documents scannés puis saisir le n° d’affaire, n° ticket et le type de pièce puis renseigner les autres champs à saisir du formulaire. Les métadonnées sont récupérées automatiquement après le choix du n° d’affaire. "
+},
+{
+  "type": "image",
+  "src": "/image/21.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  
+  "type":"note", "text":"Après avoir préparé la réponse on suit les mêmes étapes. Il suffit de spécifier le bon type de pièce "
+},
+{
+  "type": "image",
+  "src": "/image/22.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Cliquer sur le bouton «Archiver tout» pour archiver les documents dans la GED."
+},
+{
+  
+  "type":"note", "text":"Le système archives toutes les pièces en créant dans le dossier d’affaire un sous dossier nommé «Dossier réclamation» puis un autre sous sous-dossier nommé «Ticket n°.....» qui prend le n° de ticket saisi dans le formulaire puis classe et indexe les pièces dedans. "
+},
+{
+  "type":"paragraph", "text":"Passer à l’interface des dossiers dans la GED pour vérifier le classement "
+},
+{
+  "type": "image",
+  "src": "/image/23.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double clique sur le dossier **Réclamation** ."
+},
+{
+  "type": "image",
+  "src": "/image/24.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Double clique sur le dossier «Ticket n° »"
+},
+{
+  "type": "image",
+  "src": "/image/25.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"L’utilisateur peut consulter les pièces classées pour voir le contenu et les indexes."
+},
+{
+  "type": "image",
+  "src": "/image/26.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+
+{
+  "type":"h4" , "text":"d. Autres dossiers"
+},
+{
+  "type":"paragraph" , "text":"Les pièces des autres dossiers qui peuvent être créés tout au long du cycle de vie du dossier crédit auto à savoir, le dossier complémentaire, dossier sinistre et autres seront traitées en suivant la même démarche que les dossier développé au dessus. Il suffit que l’utilisateur spécifie le profil adéquat et aie les autorisation GED pour réaliser cette opération. "
+},
+{
+  "type":"h3" , "text":"3. Crédit Leasing "
+},
+{
+  "type":"h4" , "text":"a. Dossier juridique"
+},
+{
+  "type":"paragraph" , "text":"Les dossiers de crédit leasing ont un traitement différent des autres types de crédits. La GED est alimenté via l’outil EntrepriseScan pour tous les dossiers relatifs au crédit leasing."
+},
+{
+  "type":"paragraph" , "text":"Après avoir validé un dossier de crédit leasing, l’utilisateur procède à la numérisation des pièces du dossier juridique du client via EntrepriseScan. Choisir le profil «Dossier juridique» dans la liste."
+},
+{
+  "type": "image",
+  "src": "/image/27.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Sélectionner tous les documents scannés puis saisir un numéro d’affaire dans le premier champ de la fiche et le système fait appel au web service pour vérifier le numéro et récupérer les métadonnées de ce dossier (Société de gestion, agence, CIN, RC, famille de crédit…). Un message de notification est retourné si **le numéro saisie est incorrecte.**"
+},
+{
+  "type": "image",
+  "src": "/image/28.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "type":"paragraph" , "text":"Par la suite spécifier le sous dossier: Documents de base ou Documents Annexe. "
+},
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Spécifier le numéro d’affaire de référence si besoin."
+},
+{
+  "type": "image",
+  "src": "/image/29.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Après avoir choisir le sous dossier, le système liste les types de pièces à attacher à ce sous dossier. Attacher les une à une. "
+},
+{
+  "type": "image",
+  "src": "/image/30.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Après avoir renseigner les champs du formulaire pour toutes les pièces. Pour les archiver dans la GED cliquer sur le bouton «Archiver tout». "
+},
+{
+  "type": "image",
+  "src": "/image/31.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+
+{
+  "title":"Instruction",
+  "type":"callout", "text":"Après injection le système crée le sous dossier juridique selon un plan de classement défini suivant cet arborescence: Société de gestion, Agence,  Leasing,  Apporteur, N° d'affaire. "
+},
+{
+  "type":"callout", "text":"Passer à l’interface des dossiers dans la GED pour vérifier le classement "
+},
+{
+  "type": "image",
+  "src": "/image/32.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "type":"callout", "text":"Ce dossier contient les deux sous dossier spécifiés lors de la numérisation des pièces. Double cliquer sur le dossier juridique."
+},
+{
+  "type": "image",
+  "src": "/image/34.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "type":"callout", "text":"Double cliquer sur le sous dossier «Documents de base DJ» "
+},
+{
+  "type": "image",
+  "src": "/image/35.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "type":"callout", "text":"Double cliquer sur les documents pour les consulter. "
+},
+{
+  "type":"callout", "text":"Refaire le même exercice pour alimenter le sous dossier «Annexes DJ» du dossier juridique."
+},
+{
+  "type": "image",
+  "src": "/image/36.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "type":"callout", "text":"Le sous dossier est crée automatiquement avec les pièces qui lui sont attachées."
+},
+{
+  "type": "image",
+  "src": "/image/37.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "type":"h4" ,"text":"b. Dossier contractuel "
+},
+{
+  "type":"paragraph" ,"text":"Après étude et validation du dossier du crédit leasing, l’utilisateur procède à la numérisation du dossier contractuel signé. "
+},
+{
+  "type":"paragraph" ,"text":"Pour numériser le dossier contractuel, l’utilisateur se connecte à l’espace EntrepriseScan et choisi le profil «Dossier contractuel- sans QR» puis numériser le dossier.  "
+},
+{
+  "type":"callout" ,"text":"Sélectionner tous les documents scannés puis saisir le numéro d’affaire et le système récupère automatiquement les indexes via un web service. "
+},
+{
+  "type": "image",
+  "src": "/image/38.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+{
+  "type":"callout" ,"text":"Choisir le sous dossier ou ils seront classés les pièces ajoutées. Le système affiche la liste nominatives des pièce. Spécifier un type pour chaque pièces du dossier. "
+},
+{
+  "type": "image",
+  "src": "/image/39.png",
+  "alt": "Interface EntrepriseScan",
+  "caption": "Le dossier d’affaire "
+},
+
+  {
+    "type":"callout" ,"text":"Cliquer sur le bouton «Archiver tout» pour archiver les dans la GED. "
+  },
+  {
+    "type":"paragraph" , "text":"Le système archives toutes les pièces en créant un sous dossier nommé «Dossier contractuel» et le sous dossier spécifié dans le formulaire, comme sous dossier du numéro d’affaire et classe et indexe les pièces dans ce sous dossier."
+  },
+  {
+    "type":"callout" , "text":"Passer à l’interface des dossiers dans la GED pour vérifier le classement "
+  },
+  {
+    "type": "image",
+    "src": "/image/40.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"callout" , "text":"Double clique sur le dossier contractuel."
+  },
+  {
+    "type": "image",
+    "src": "/image/41.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"callout" , "text":"Double clique sur le dossier «Documents de base DC»"
+  },
+  {
+    "type": "image",
+    "src": "/image/10.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"callout" , "text":"Choisir et double cliquer sur un document pour le consulter (Contenu et indexes)."
+  },
+  {
+    "type":"h4", "text":"c. Autres dossiers"
+  },
+  {
+    "type":"paragraph" , "text":"Les pièces des autres dossiers qui peuvent être créés tout au long du cycle de vie du dossier crédit leasing à savoir, le dossier financier, dossier instruction, dossier échanges et autres seront traitées en suivant la même démarche que les dossiers développés au dessus. Il suffit que l’utilisateur spécifie le profil adéquat et aie les autorisation GED pour réaliser cette opération"
+  },
+  {
+    "type":"h3" , "text":"4. Animation commerciale "
+  },
+  {
+    "type":"h4" , "text":"a. Dossier Auto national "
+  },
+  {
+    "type":"paragraph", "text":"Le service animation commerciale utilise la GED pour archiver tous ces documents dans un dossier approprié. On va détailler dans les paragraphes qui suivent la démarche d’acquisition, archivage et consultation de ces documents."
+  },
+  {
+    "type":"paragraph", "text":"L’utilisateur se connecte à son espace Entrerpise scan pour trier les pièces du dossier. "
+  },
+  {
+    "type":"callout", "text":"Choisir le profil «Dossier animation commerciale» puis renseigner les champs de la fiche."
+  },
+  {
+    "type": "image",
+    "src": "/image/11.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"callout", "text":"Numériser ou charger les documents puis renseigner les champs (Dossier, Agence et date)"
+  },
+  {
+    "type": "image",
+    "src": "/image/12.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"callout", "text":"Sélectionner la pièce puis spécifier le type. Applique la même règle pour toutes les pièces."
+  },
+  {
+    "type":"callout" , "text":"Après avoir finaliser le tri, archiver les en cliquant sur le bouton «Archibver tout» (Injection dans la GED)."
+  },
+  {
+    "type": "image",
+    "src": "/image/13.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"callout", "text":"Les pièces seront injecté dans la base GED et classé selon un plan de classement défini initialement. Dans notre cas il sera:"
+  },
+  {
+    "type":"list", "items":[
+      "Espace Animation commerciale >> Dossier Auto nationale >> Agence >> Dossier >> Documents"
+
+    ]
+  },
+  {
+    "type": "image",
+    "src": "/image/14.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type": "image",
+    "src": "/image/15.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type": "image",
+    "src": "/image/16.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type": "image",
+    "src": "/image/17.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type": "image",
+    "src": "/image/18.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"h4", "text":"b. Autres dossiers "
+  }, 
+  {
+    "type":"paragraph" , "text":"Les autres dossiers d’animation commerciale à savoir, dossier agents agrées et PP national sont traités en suivants les mêmes étapes détaillées dans les paragraphes au-dessus. Ce qui change en général c’est les plans de classement des documents archivés."
+  },
+  {
+    "type":"callout" ,"text":"Pour ces cas les plans de classement changent  en fonction du dossier choisi:"
+  },
+  {
+    "type": "list", "items":[
+   "Espace Animation commerciale >> Dossier Agents agrées  >> Agent agrée >> Dossier >> Documents","Espace Animation commerciale >> Dossier PP national >> Agence >> Dossier >> Documents"
+    ]
+  } ,
+  {
+    "type":"paragraph" , "text":"Les utilisateurs de la GED peuvent alimenter la GED par des documents en format numérique qu’ils peuvent récupérer depuis n’importe quelle autre source (Poste de l’utilisateur, serveur, support de stockage externe, …). Il suffit d’importer un ou plusieurs ,documents en format électronique lors de l’ajout des documents via l’interface de l’application EntrepriseScan.L’utilisateur suit la même démarche que celle expliqué pour l’ajout des documents par numérisation."
+  },
+  {
+    "type":"h3", "text":"C. Ajouter et modifier des documents"
+  },
+  {
+    "type":"paragraph" ,"text":"Il existe deux façons d'ajouter des documents dans Content Server :"
+  },
+  {
+    "type":"list" , "items" :[
+      "En chargeant un fichier qui existe déjà sur votre ordinateur.",
+      "En créant un nouveau document dans Content Server."
+    ]
+  },
+  {
+    "type":"paragraph", "text":"Lorsque vous ajoutez un document existant dans Content Server, vous pouvez spécifier un nom et une description, appliquer des catégories et des attributs et choisir l'emplacement de stockage du document dans Content Server. Si le document que vous ajoutez comporte plusieurs catégories associées au type de document, vous accédez à une seconde page dans laquelle vous pouvez choisir la catégorie à assigner au document. Par exemple, supposons que votre administrateur a associé des fichiers JPG et TIF à des catégories appelées « Image numérisée » et « Photo numérique ». Lorsque vous ajoutez des fichiers portant l'extension .jpg ou .tif, vous devez sélectionner la catégorie Image numérisée et/ou Photo numérique sur une seconde page après avoir ajouté l'élément."
+  },
+  {
+    "type":"note","text":"Cette fonction n'est disponible que si votre administrateur a activé le processus d'Ajout avancé des éléments et si le type de document que vous ajoutez est un type MIME que votre administrateur a associé à plusieurs catégories. Vous êtes invité à choisir une catégorie ou plusieurs si diverses catégories sont associées au type MIME"
+  },
+  {
+    "type":"paragraph" ,"text":"Lorsque vous ajoutez un nouveau document à Content Server, vous devez sélectionner un type de document, spécifier des informations et composer son contenu dans une application externe. Les types de documents que vous pouvez ajouter sont définis par l'administrateur mais peuvent comprendre des fichiers Microsoft Word, Excel ou PowerPoint. Après avoir ajouté le nouveau document, une version vierge s'ouvre dans le programme de bureau correspondant ; vous pouvez alors composer son contenu"
+  },
+  {
+    "type":"paragraph","text":"Si vous disposez des autorisations nécessaires, vous pouvez ajouter un document en tant que version principale ou secondaire du document original. Si vous ne disposez pas des autorisations nécessaires, vous ne pouvez pas ajouter un document en tant que version principale ou secondaire du document original. "
+  },
+  {
+    "type":"h4" ,"text":"1. Pour ajouter un document existant :" 
+  },
+  {
+    "type": "image",
+    "src": "/image/19.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"paragraph" , "text":
+      "1 - Dans le menu Ajouter un élément, sélectionnez Document."
+     
+    
+  },
+  {
+    "type":"paragraph" ,"text":"2 - Sur la page **Ajouter** : **Document**, dans la section Document, sélectionnez le bouton radio **Existant**. Cliquez sur le bouton **Parcourir** pour rechercher le fichier que vous souhaitez ajouter, puis cliquez sur le bouton **Ouvrir**."
+   },
+  {
+    "type": "image",
+    "src": "/image/20.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"note","text": 
+      "Le bouton radio Existant ne s'affiche que si vous utilisez Internet Explorer,Pour ajouter un nouveau document, sélectionnez le bouton radio Nouveau, puis suivez les instructions dans Pour ajouter un nouveau document" , "tone":"success"
+    
+  },
+  {
+    "type":"paragraph" , "text":
+      "3 - Saisissez un nom pour le document dans le champ Nom."
+     
+    
+  },
+  {
+    "type":"callout" , "tone":"success" , "text":
+      "Si plusieurs langues sont installées et activées sur votre système, cliquez sur le bouton Cliquez pour modifier les valeurs multilingues pour modifier le nom dans les autres langues activées."
+     
+    
+  },
+  {
+    "type":"paragraph" ,"text" :"4 - Facultatif Dans le champ Description, saisissez une description pour le document."
+  },
+  {
+    "type":"callout" , "tone":"success" , "text":
+      "Si plusieurs langues sont installées et activées sur votre système, cliquez sur le bouton Cliquez pour modifier les valeurs multilingues pour modifier la description dans les autres langues activées."
+     
+    
+  },
+  {
+    "type":"paragraph" ,"text" :"5 - Dans le champ Contrôle de version, choisissez un type de création de versions en cliquant sur le bouton radio Standard - création linéaire de versions ou Avancée - création de versions principales/secondaires."
+  },
+  {
+    "type":"paragraph" ,"text" :"6 - Facultatif Si vous appliquez un classement à ce document, dans la liste Classements, sélectionnez Parcourir les classements ou Mes favoris."
+  },
+  {
+    "type":"number-list" ,"items":[
+      "Dans la boîte de dialogue qui apparaît, sélectionnez le classement que vous souhaitez appliquer au document.",
+      "Assurez-vous que la case à cocher **Action** située en regard du classement est bien activée.",
+      "Cliquez sur **Envoyer**"
+  ]
+  },
+  {
+    "type":"paragraph", "text":"7 - Facultatif Dans le champ Catégories, cliquez sur Modifier... pour sélectionner ou ajouter une catégorie à appliquer à ce document."
+  },
+  {
+    "type":"paragraph", "text":"8 - Facultatif Pour placer le document dans un emplacement autre que celui affiché dans le champ Créer dans, cliquez sur le bouton Parcourir Content Server.... Naviguez jusqu'au recueil dans lequel placer le document, puis cliquez sur son lien Sélectionner"
+  },
+  {
+    "type":"paragraph" ,"text":"9 - Cliquez sur **Ajouter**."
+  },
+  {
+    "type":"paragraph" ,"text":"10 - Si la page Modifier les attributs s'affiche après l'ajout du document, sélectionnez la case à cocher de chaque catégorie à laquelle vous souhaitez assigner le document, puis cliquez sur Envoyer."
+
+  },
+  {
+    "type":"callout" ,"title":"Astuce", "tone":"success" ,"text":"Si votre administrateur l'a mis à votre disposition, vous pouvez également ajouter un document à Content Server en cliquant sur le bouton Ajouter un document sur la page d'un espace de travail"
+  },
+  {
+    "type":"h4" ,"text":"2. Pour ajouter un nouveau document"
+  },
+  {
+    "type":"paragraph", "text":"1 - Dans le menu Ajouter un élément, sélectionnez Document."
+  },
+  {
+    "type": "image",
+    "src": "/image/21.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"paragraph", "text":"2 - Sur la page **Ajouter** : **Document**, dans la section **Document**, sélectionnez le bouton radio **Nouveau**. Dans la liste déroulante, sélectionnez le type de document à ajouter"
+  },
+  {
+    "type": "image",
+    "src": "/image/22.png",
+    "alt": "Interface EntrepriseScan",
+    "caption": "Le dossier d’affaire "
+  },
+  {
+    "type":"note", "text":"Pour ajouter un document existant, sélectionnez le bouton radio Existant, puis suivez les instructions."
+  },
+  {
+    "type":"paragraph" , "text" : "3 - Saisissez un nom pour le document dans le champ Nom."
+  },
+  {
+    "type":"callout" ,"text":"Si plusieurs langues sont installées et activées sur votre système, cliquez sur le bouton Cliquez pour modifier les valeurs multilingues pour modifier le nom dans les autres langues activées"
+  },
+  {
+    "type":"paragraph" , "text":"4 - Facultatif Dans le champ Description, saisissez une description pour le document."
+  },
+  {
+    "type":"callout" ,"text":"Si plusieurs langues sont installées et activées sur votre système, cliquez sur le bouton Cliquez pour modifier les valeurs multilingues pour modifier la description dans les autres langues activées."}
+ 
+
+
+
+
+
+
+
+
+
+  ]
+  

@@ -1,0 +1,14 @@
+[
+    { "type": "h1", "text": "I. Objet du document " },
+    {
+        "type": "paragraph",
+        "text": "Le présent guide qui fait partie des livrables de la phase 3 « Mise en œuvre ». Il a pour objectif d’assister et d’aider les utilisateurs du système GED à mieux exploiter et manipuler l’application déployée et de naviguer dans les différentes interfaces."
+      },
+      {
+        "type": "paragraph",
+        "text": "En plus de ce que présente ce guide, la version déployée dispose d’un menu « Help » intégré qui donne plus de détail et explication sur le mode d’utilisation des différents modules et fonctionnalités. A travers ce guide vous allez trouver des liens écrit en bleu que vous pouvez copier et coller sur la barre de recherche du menu Help pour plus de d’explication."
+      }
+
+
+
+]

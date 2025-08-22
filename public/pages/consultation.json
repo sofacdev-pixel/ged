@@ -1,0 +1,85 @@
+{
+    "header": {
+      "title": "Consultation des documents",
+      "subtitle": "Accéder aux documents et aux documents texte dans Content Server."
+    },
+    "steps": [
+      {
+        "n": 1,
+        "title": "Accéder aux documents et aux documents texte",
+        "paragraphs": [
+          "Selon ce que vous souhaitez faire, de vos autorisations et de la configuration de Content Server, vous pouvez avoir accès à des documents dans Content Server de différentes façons. En règle générale, vous pouvez afficher le contenu d'un document, y effectuer des modifications, le télécharger, le réserver et annuler sa réservation.",
+          "Vous pouvez afficher un document dans votre navigateur Web, ce qui vous permet de visualiser rapidement le contenu sans avoir à vous préoccuper de la mise en forme. Vous pouvez également ouvrir une copie d'un document en lecture seule dans le programme de bureau qui lui est associé. Cette opération vous permet de visualiser le contenu d'un document, sa mise en forme et sa disposition.",
+          "Téléchargez des documents à partir de Content Server lorsque vous souhaitez les enregistrer sur votre ordinateur ou y effectuer des modifications. Lorsque vous téléchargez un document, vous pouvez l'ouvrir dans le programme de bureau qui lui est associé ou l'enregistrer sur votre ordinateur. Si vous téléchargez un document afin de le modifier, vous devez le réserver afin que personne ne puisse le modifier en même temps.",
+          "Si cette fonction est activée par votre administrateur, vous pouvez également accéder aux documents via la page Vue d'ensemble d'un document. La page Vue d'ensemble d'un document fournit des informations sur le document, notamment une description et des informations sur la version. Elle vous permet d'effectuer un grand nombre de fonctions dans le document."
+        ],
+        "notes": [
+          "Votre administrateur doit activer la fonction qui vous permet d'afficher un document en tant que page Web.",
+          "Les modules Content Server peuvent avoir un impact sur l'affichage, l'ouverture et le téléchargement de vos documents."
+        ],
+        "procedures": [
+          {
+            "title": "Pour afficher un document :",
+            "steps": [
+              "Cliquez sur l'icône Fonctions d'un document.",
+              "Dans le menu Fonctions du document, sélectionnez « Afficher en tant que page Web »."
+            ],
+            "note": "La fonction « Afficher en tant que page Web » est disponible uniquement si elle est activée par votre administrateur.",
+            "image": {
+              "src": "/image/screenshot/doc-text.svg",
+              "alt": "Afficher un document en tant que page Web",
+              "caption": "Accès à l’option « Afficher en tant que page Web »."
+            }
+          },
+          {
+            "title": "Pour ouvrir un document texte :",
+            "steps": [
+              "Cliquez sur l'icône Fonctions du document texte.",
+              "Dans le menu Fonctions du document texte, sélectionnez « Ouvrir »."
+            ]
+          },
+          {
+            "title": "Pour télécharger un document ou un document texte :",
+            "steps": [
+              "Cliquez sur l'icône Fonctions du document ou du document texte, puis choisissez « Télécharger ».",
+              "Enregistrez le fichier sur votre ordinateur."
+            ]
+          }
+        ]
+      },
+      {
+        "n": 2,
+        "title": "Page Vue d'ensemble d'un document",
+        "paragraphs": [
+          "La page Vue d'ensemble d'un document fournit des informations sur le document. La page Vue d'ensemble d'un document s'affiche par défaut lorsque vous cliquez sur le lien d'un document ou sur un lien abrégé dans un e-mail. Votre administrateur peut modifier le comportement par défaut de Content Server de façon à empêcher l'accès automatique à la page Vue d'ensemble d'un document. La page Vue d'ensemble d'un document est également accessible à l'aide du menu Fonctions d'un document.",
+          "Les informations contenues sur la page Vue d'ensemble d'un document peuvent inclure une description et des informations sur la version. Vous pouvez également effectuer plusieurs fonctions dans le document à partir de la page Vue d'ensemble."
+        ],
+        "procedures": [
+          {
+            "title": "Pour afficher la page Vue d'ensemble d'un document à partir du menu Fonctions :",
+            "steps": [
+              "Cliquez sur l'icône Fonctions d'un document.",
+              "Dans le menu Fonctions, sélectionnez « Vue d'ensemble »."
+            ],
+            "image": {
+                "src": "/image/screenshot/doc-vue.svg",
+              "alt": "Ouvrir la Vue d'ensemble d'un document",
+              "caption": "Accès à la Vue d’ensemble depuis le menu Fonctions."
+            }
+          },
+          {
+            "title": "Pour afficher la page Vue d'ensemble d'une version à partir du menu Fonctions :",
+            "steps": [
+              "Cliquez sur l'icône Fonctions d'un document.",
+              "Dans le menu Fonctions, choisissez « Propriétés », puis « Versions ».",
+              "Cliquez sur l'icône Fonctions de la version dont vous souhaitez afficher la page Vue d'ensemble.",
+              "Dans le menu Fonctions, choisissez « Vue d'ensemble »."
+            ]
+           
+          }
+        ]
+      }
+    ]
+ 
+  }
+  

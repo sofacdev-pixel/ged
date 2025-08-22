@@ -1,0 +1,80 @@
+{
+    "header": {
+      "title": "L’acquisition des documents",
+      "subtitle": "Guide clair et concis pour numériser, ajouter et modifier des documents dans Content Server."
+    },
+    "steps": [
+      {
+        "n": 1,
+        "title": "Numérisation via EntrepriseScan",
+        "paragraphs": [
+          "L’application EntrepriseScan (client lourd) communique via API avec la GED OpenText. Elle permet d’acquérir des documents papier (via scanners) ou numériques (import) depuis le poste de l’utilisateur, dans une interface unique."
+        ],
+        "notes": [
+          "Le processus d’alimentation de la GED varie selon le type de crédit et le type de dossier."
+        ]
+      },
+      {
+        "n": 2,
+        "title": "L'import des documents",
+        "paragraphs": [
+            "Les utilisateurs de la GED peuvent alimenter la GED par des documents en format numérique qu’ils peuvent récupérer depuis n’importe quelle autre source (Poste de l’utilisateur, serveur, support de stockage externe, …). Il suffit d’importer un ou plusieurs documents en format électronique lors de l’ajout des documents via l’interface de l’application EntrepriseScan. ."
+        ],
+        "notes": [
+            "L’utilisateur suit la même démarche que celle expliqué pour l’ajout des documents par numérisation.  "      ]
+      },
+      
+      {
+        "n": 3,
+        "title": "Ajouter et modifier des documents",
+        "introListTitle": "Il existe deux façons d'ajouter des documents dans Content Server :",
+        "introList": [
+          "En chargeant un fichier qui existe déjà sur votre ordinateur.",
+          "En créant un nouveau document dans Content Server."
+        ],
+        "paragraphs": [
+          "Lorsque vous ajoutez un document existant dans Content Server, vous pouvez spécifier un nom et une description, appliquer des catégories et des attributs et choisir l'emplacement de stockage du document dans Content Server. Si le document que vous ajoutez comporte plusieurs catégories associées au type de document, vous accédez à une seconde page dans laquelle vous pouvez choisir la catégorie à assigner au document. Par exemple, supposons que votre administrateur a associé des fichiers JPG et TIF à des catégories appelées « Image numérisée » et « Photo numérique ». Lorsque vous ajoutez des fichiers portant l'extension .jpg ou .tif, vous devez sélectionner la catégorie Image numérisée et/ou Photo numérique sur une seconde page après avoir ajouté l'élément.",
+          "Lorsque vous ajoutez un nouveau document à Content Server, vous devez sélectionner un type de document, spécifier des informations et composer son contenu dans une application externe. Les types de documents que vous pouvez ajouter sont définis par l'administrateur mais peuvent comprendre des fichiers Microsoft Word, Excel ou PowerPoint. Après avoir ajouté le nouveau document, une version vierge s'ouvre dans le programme de bureau correspondant ; vous pouvez alors composer son contenu.",
+          "Si vous disposez des autorisations nécessaires, vous pouvez ajouter un document en tant que version principale ou secondaire du document original. Si vous ne disposez pas des autorisations nécessaires, vous ne pouvez pas ajouter un document en tant que version principale ou secondaire du document original. "
+        ],
+        "notes": [
+          "Cette fonction n'est disponible que si votre administrateur a activé le processus d'Ajout avancé des éléments et si le type de document que vous ajoutez est un type MIME que votre administrateur a associé à plusieurs catégories. Vous êtes invité à choisir une catégorie ou plusieurs si diverses catégories sont associées au type MIME."
+        ]
+      
+      }
+
+ 
+    ],
+    "catalog": {
+      "eyebrow": "Catalogue",
+      "title": "Voir tous les produits",
+      "subtitle": "Parcourez nos guides et exemples par produit.",
+      "products": [
+        { "icon": "/image/illutration/perso.svg", "title": "Prêt personnel", "href": "/acquisition-des-documents/pret-personnel" },
+        { "icon": "/image/illutration/auto.svg", "title": "Crédit auto", "href": "/acquisition-des-documents/credit-auto" },
+        { "icon": "/image/illutration/leasing.svg", "title": "Crédit leasing", "href": "/acquisition-des-documents/credit-leasing" },
+        { "icon": "/image/illutration/animation.svg", "title": "Animation commerciale", "href": "/acquisition-des-documents/animation-commerciale" }
+      ]
+    },
+    
+        "quickLinks": [
+          {
+            "title": "Ajouter un document existant",
+            "slug": "ajouter-un-document-existant",
+            "href": "/acquisition-des-documents/ajout/ajouter-un-document-existant"
+          },
+          {
+            "title": "Ajouter un nouveau document",
+            "slug": "ajouter-un-nouveau-document",
+            "href": "/acquisition-des-documents/ajout/ajouter-un-nouveau-document"
+          },
+          {
+            "title": "Modifier des documents avec Office Editor",
+            "slug": "modifier-des-documents-avec-office-editor",
+            "href": "/acquisition-des-documents/modifier-des-documents-avec-office-editor"
+          }
+        ]
+    
+      
+  }
+  

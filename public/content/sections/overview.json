@@ -1,0 +1,58 @@
+[
+    {
+        "type":"h1" ,"text": "II. Vue d’ensemble " 
+    }
+    ,{
+        "type":"h2","text":"A. Accéder à l’application "
+    }
+    ,{
+        "type":"paragraph", "text":"Chaque utilisateur de l’application Opentext a un compte avec des paramètres d’accès créés initialement par un administrateur."
+    },
+    {
+        "type":"callout", "text":"Pour accéder à l’application utiliser ces paramètres : Nom d’utilisateur et Mot de passe."
+    },
+    {
+        "type": "image",
+        "src": "/image/screenshot/doc-log.svg",
+        "alt": "Interface EntrepriseScan",
+        "caption": "Interface principale de numérisation"
+      },
+      {
+        "type":"callout", "text":"L’administrateur métier ou technique accède à son compte avec des habilitations limitées au paramétrage."
+    },
+    {
+        "type":"h2", "text":"B. Quitter l’application "
+    },
+    {
+        "type": "image",
+        "src": "/image/screenshot/doc-logout.svg",
+        "alt": "Interface EntrepriseScan",
+        "caption": "quitter l'application"
+      },
+      {
+        "type":"paragraph","text":"Les utilisateurs doivent quitter leurs cessions après l’utilisation de l’application pour éviter toute sorte de détournement ou mauvaise utilisation par un autre utilisateur. Il suffit de se déconnecter de la session en suivant les étapes mentionnées dans la captures au-dessus. Le système est paramétré pour déconnecter automatiquement la session après un temps continue d’inutilisation."
+      },
+      {
+        "type":"paragraph","text":"Le système est paramétré pour déconnecter automatiquement la session après un temps continue d’inutilisation."
+      },
+      {
+        "type":"h2", "text":"C. Réinitialiser le mot de passe "
+    },
+    {
+        "type":"paragraph","text":"En cas d’oubli de mot de passe, l’utilisateur peut la réinitialiser en spécifiant son nom d’utilisateur."
+      },
+      {
+        "type":"callout", "text":"Un nouveau mot de passe est généré automatiquement puis envoyé par email à l’adresse de l’utilisateur."
+    },
+    {
+        "type": "image",
+        "src": "/image/screenshot/doc-password.svg",
+        "alt": "Interface EntrepriseScan",
+        "caption": "password"
+      }
+      
+
+
+
+
+]

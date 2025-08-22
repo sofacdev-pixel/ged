@@ -1,0 +1,84 @@
+{
+    "title": "Prêt personnel",
+    "subtitle": "Parcours de consultation — GED",
+    "categories": [
+      {
+        "slug": "justificatif",
+        "title": "Dossier justificatif",
+        "callout": "Arborescence : Société de gestion → Agence → Famille crédit PP → Apporteur → N° d'affaire.",
+        "bestPractices": [
+          "Vérifiez que le PDF global est complet avant l’attachement.",
+          "Respectez la nomenclature et l’arborescence du plan de classement.",
+          "Contrôlez les indexes après injection pour valider le mapping."
+        ],
+        "shortcuts": [
+          { "label": "Plan de classement (référence)", "href": "#" },
+          { "label": "Aller aux étapes", "href": "#etapes" }
+        ],
+        "steps": [
+          {
+            "image": { "src": "/image/screenshot/perso/perso-1.svg", "alt": "Ouvrir le dossier numéro d'affaire" },
+            "caption": "Double-cliquez sur le dossier n° d'affaire."
+          },
+          {
+            "image": { "src": "/image/screenshot/perso/perso-2.svg", "alt": "Ouvrir le sous-dossier justificatif" },
+            "caption": "Double-cliquez sur le dossier « Justificatif »."
+          },
+          {
+            "image": { "src": "/image/screenshot/perso/perso-3.svg", "alt": "Ouvrir le document global" },
+            "caption": "Double-cliquez sur le document global pour consulter ses pièces et ses index."
+          }
+        ]
+      },
+      {
+        "slug": "contractuel",
+        "title": "Dossier contractuel",
+        "callout": "Après étude et validation du dossier de crédit l’utilisateur procède à la numérisation du dossier contractuel signé. ",
+        "bestPractices": [
+         
+          "Pour numériser le dossier contractuel, l’utilisateur se connecte à l’espace EntrepriseScan et choisi le profil «Dossier contractuel avec QR» puis numérise le dossier contractuel. ",
+          "Le système récupère le n° d’affaire après la lecture du code QR puis fait appel au web service pour récupérer les métadonnées de ce dossier (Société de gestion, agence, CIN, RC, famille de crédit…)."
+        ],
+        "shortcuts": [
+          { "label": "Modèles & annexes", "href": "#" },
+          { "label": "Aller aux étapes", "href": "#etapes" }
+        ],
+        "steps": [
+          {
+            "image": { "src": "/image/screenshot/perso/perso-4.svg", "alt": "Accéder au dossier contractuel" },
+            "caption": "Ouvrir le sous-dossier « Dossier contractuel »."
+          },
+          {
+            "image": { "src": "/image/screenshot/perso/perso-5.svg", "alt": "Vérifier le contrat signé" },
+            "caption": "Contrôler la présence du contrat signé et des annexes."
+          },
+          {
+            "image": { "src": "/image/screenshot/perso/perso-6.svg", "alt": "Accéder au dossier contractuel" },
+            "caption": "Ouvrir le sous-dossier « Dossier contractuel »."
+          },
+          {
+            "image": { "src": "/image/screenshot/perso/perso-8.svg", "alt": "Vérifier le contrat signé" },
+            "caption": "Contrôler la présence du contrat signé et des annexes."
+          }
+       
+
+        ]
+      },
+      {
+        "slug": "autres",
+        "title": "Autres dossiers",
+        "callout": "Les pièces des autres dossiers qui peuvent être créés tout au long du cycle de vie du dossier crédit à savoir, le dossier complémentaire, dossier sinistre et autres seront traitées en suivant la même démarche que les dossier développé au dessus. Il suffit que l’utilisateur spécifie le profil adéquat et aie les autorisation GED pour réaliser cette opération. ",
+        "bestPractices": [
+          "Indexez les pièces avec la catégorie correcte.",
+          "Ajoutez un résumé dans la description du document.",
+          "Reliez au n° d’affaire concerné."
+        ],
+        "shortcuts": [
+          { "label": "Référentiel typologies", "href": "#" },
+          { "label": "Aller aux étapes", "href": "#etapes" }
+        ]
+        
+      }
+    ]
+  }
+  

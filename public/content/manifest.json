@@ -1,0 +1,31 @@
+{
+    "title": "My Product Guide",
+    "version": 1,
+    "sections": [
+      {
+        "id": "intro",
+        "title": "I. Objet du document",
+        "file": "/content/sections/intro.json",
+        "icon": "",
+        "tags": ["overview"],
+        "order": 1
+      },
+      {
+        "id": "overview",
+        "title": "II. Vue d’ensemble",
+        "file": "/content/sections/overview.json",
+        "icon": "",
+        "tags": ["login", "getting-started"],
+        "order": 2
+      },
+      {
+        "id": "acquisition",
+        "title": "III. L’acquisition des documents",
+        "file": "/content/sections/acquisition.json",
+        "icon": "",
+        "tags": ["scan", "import"],
+        "order": 3
+      }
+    ]
+  }
+  

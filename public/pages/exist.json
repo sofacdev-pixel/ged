@@ -1,0 +1,55 @@
+{
+    "title": "Pour ajouter un document existant",
+  
+    "steps": [
+    {
+    "n": 1,
+    "textHtml": "Dans le menu <span class=\"font-medium\">Ajouter un élément</span>, sélectionnez <span class=\"font-medium\">Document</span>.",
+    "image": { "src": "/image/screenshot/doc-text-1.svg", "alt": "Ajouter : Document (Existant)" }
+    },
+    {
+    "n": 2,
+    "textHtml": "Sur la page <span class=\"font-medium\">Ajouter : Document</span>, dans la section <span class=\"font-medium\">Document</span>, sélectionnez le bouton radio <span class=\"font-medium\">Existant</span>. Cliquez sur <span class=\"font-medium\">Parcourir</span> pour rechercher le fichier, puis cliquez sur <span class=\"font-medium\">Ouvrir</span>.",
+    "image": { "src": "/image/screenshot/doc-text-2.svg", "alt": "Ajouter : Document (Existant)" },
+    "noteHtml": "<ol class=\"list-decimal pl-5 space-y-1\"><li>Le bouton radio <em>Existant</em> ne s'affiche que si vous utilisez Internet Explorer.</li><li>Pour ajouter un nouveau document, sélectionnez le bouton radio <em>Nouveau</em>, puis suivez les instructions dans <em>Pour ajouter un nouveau document</em>.</li></ol>"
+    },
+    {
+    "n": 3,
+    "textHtml": "Saisissez un nom pour le document dans le champ <span class=\"font-medium\">Nom</span>.",
+    "subHtml": "Si plusieurs langues sont installées et activées, cliquez sur <em>Cliquer pour modifier les valeurs multilingues</em> pour renseigner le nom dans les autres langues."
+    },
+    {
+    "n": 4,
+    "textHtml": "Facultatif — dans <span class=\"font-medium\">Description</span>, saisissez une description.",
+    "subHtml": "Si plusieurs langues sont installées et activées, cliquez sur <em>Cliquer pour modifier les valeurs multilingues</em> pour renseigner la description dans les autres langues."
+    },
+    {
+    "n": 5,
+    "textHtml": "Dans <span class=\"font-medium\">Contrôle de version</span>, choisissez <span class=\"font-medium\">Standard</span> (linéaire) ou <span class=\"font-medium\">Avancée</span> (principales/secondaires)."
+    },
+    {
+    "n": 6,
+    "textHtml": "Facultatif — pour appliquer un classement, dans <span class=\"font-medium\">Classements</span>, sélectionnez <em>Parcourir les classements</em> ou <em>Mes favoris</em>.",
+    "bullets": [
+    "Dans la boîte de dialogue, sélectionnez le classement à appliquer.",
+    "Assurez‑vous que la case à cocher Action est activée.",
+    "Cliquez sur Envoyer."
+    ]
+    },
+    {
+    "n": 7,
+    "textHtml": "Facultatif — dans <span class=\"font-medium\">Catégories</span>, cliquez sur <em>Modifier…</em> pour sélectionner ou ajouter une catégorie."
+    },
+    {
+    "n": 8,
+    "textHtml": "Facultatif — pour placer le document ailleurs que dans <em>Créer dans</em>, cliquez sur <em>Parcourir Content Server…</em>, naviguez jusqu’au recueil souhaité, puis cliquez sur <em>Sélectionner</em>."
+    },
+    { "n": 9, "textHtml": "Cliquez sur <span class=\"font-medium\">Ajouter</span>." },
+    {
+    "n": 10,
+    "textHtml": "Si la page <em>Modifier les attributs</em> s’affiche, cochez les catégories à assigner puis cliquez sur <span class=\"font-medium\">Envoyer</span>.",
+    "noteHtml": "<p>Si disponible, vous pouvez aussi ajouter un document via le bouton <em>Ajouter un document</em> sur la page d’un espace de travail.</p>"
+    }
+    ]
+    }
+    

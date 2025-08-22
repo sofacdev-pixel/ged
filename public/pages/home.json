@@ -1,0 +1,50 @@
+{
+    "title": "Manuel d'utilisation <span class=\"text-gray-500\">SOFAGED</span>",
+    "subtitle": "Recherchez dans les guides, sections et fonctionnalités de Content Server.",
+    "hero": {
+      "video": "/media/magic.mp4",
+      "poster": "/media/hero-poster.jpg",
+      "alt": "Vidéo de présentation"
+    },
+    "suggestions": [
+      "Recherche avancée",
+      "Recherches enregistrées",
+      "Numérisation (EntrepriseScan)",
+      "Catégories & attributs"
+    ],
+    "quickLinks": [
+      {
+        "title": "Vue d’ensemble",
+        "href": "/overview",
+        "image": {
+          "src": "/image/illutration/overview.svg",
+          "alt": "Vue d’ensemble"
+        }
+      },
+      {
+        "title": "Recherche",
+        "href": "/recherche",
+        "image": {
+            "src": "/image/illutration/recherche.svg",
+          "alt": "Recherche"
+        }
+      },
+      {
+        "title": "Acquisition des documents",
+        "href": "/acquisition-des-documents",
+        "image": {
+            "src": "/image/illutration/acquisition.svg",
+          "alt": "Acquisition des documents"
+        }
+      },
+      {
+        "title": "Consultation des documents",
+        "href": "/consultation-des-documents",
+        "image": {
+            "src": "/image/illutration/view.svg",
+          "alt": "Content Server"
+        }
+      }
+    ]
+  }
+  
