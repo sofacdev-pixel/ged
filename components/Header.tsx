@@ -87,7 +87,7 @@ export default function Header() {
 
         {/* Right: actions (desktop only) */}
         <div className="hidden items-center gap-2 md:flex">
-          <SearchButton />
+         
           <ThemeToggle />
         </div>
       </div>
