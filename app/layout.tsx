@@ -44,7 +44,7 @@ export default function RootLayout({
         {/* Main stays centered, unaffected by the sidebar */}
         <main className="relative min-h-screen w-full flex justify-center">
           {/* Centered page container */}
-          <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="w-full max-w-7xl px-3 sm:px-4 lg:px-8">
             <Suspense
               fallback={
                 <div className="py-8">

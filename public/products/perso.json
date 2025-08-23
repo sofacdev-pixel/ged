@@ -17,15 +17,18 @@
         ],
         "steps": [
           {
-            "image": { "src": "/image/screenshot/perso/perso-1.svg", "alt": "Ouvrir le dossier numéro d'affaire" },
+            "image": { "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/perso/perso-1.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwZXJzby9wZXJzby0xLnN2ZyIsImlhdCI6MTc1NTg3MTgwNCwiZXhwIjoxNzg3NDA3ODA0fQ.dpw8NS2IdYvSFHgUrYjLv3r0YoefrwKWtIVzFK-UI00",
+             "alt": "Ouvrir le dossier numéro d'affaire" },
             "caption": "Double-cliquez sur le dossier n° d'affaire."
           },
           {
-            "image": { "src": "/image/screenshot/perso/perso-2.svg", "alt": "Ouvrir le sous-dossier justificatif" },
+            "image": { "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/perso/perso-2.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwZXJzby9wZXJzby0yLnN2ZyIsImlhdCI6MTc1NTg3MTgzNiwiZXhwIjoxNzg3NDA3ODM2fQ.4IhjTDR0rjrdqZ50_ZjFakhPUXOeDS_CK_IEX0HvmqI",
+             "alt": "Ouvrir le sous-dossier justificatif" },
             "caption": "Double-cliquez sur le dossier « Justificatif »."
           },
           {
-            "image": { "src": "/image/screenshot/perso/perso-3.svg", "alt": "Ouvrir le document global" },
+            "image": { "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/perso/perso-3.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwZXJzby9wZXJzby0zLnN2ZyIsImlhdCI6MTc1NTg3MTg1MCwiZXhwIjoxNzg3NDA3ODUwfQ.spIffATDN92vxxHkzCN3l4R-2U4OuuRS5mDwPQy9mDw",
+             "alt": "Ouvrir le document global" },
             "caption": "Double-cliquez sur le document global pour consulter ses pièces et ses index."
           }
         ]
@@ -45,19 +48,19 @@
         ],
         "steps": [
           {
-            "image": { "src": "/image/screenshot/perso/perso-4.svg", "alt": "Accéder au dossier contractuel" },
+            "image": { "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/perso/perso-4.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwZXJzby9wZXJzby00LnN2ZyIsImlhdCI6MTc1NTg3MTk4NiwiZXhwIjoxNzg3NDA3OTg2fQ.06L8J7cQuabrhm-moiUvrsSs9CIs5nBsFnlKkw3jTwQ", "alt": "Accéder au dossier contractuel" },
             "caption": "Ouvrir le sous-dossier « Dossier contractuel »."
           },
           {
-            "image": { "src": "/image/screenshot/perso/perso-5.svg", "alt": "Vérifier le contrat signé" },
+            "image": { "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/perso/perso-5.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwZXJzby9wZXJzby01LnN2ZyIsImlhdCI6MTc1NTg3MTk5OSwiZXhwIjoxNzg3NDA3OTk5fQ.pL81SCO4W5n1RoqImvzdDYvS7AvLzfkegql9T1e3Tg8", "alt": "Vérifier le contrat signé" },
             "caption": "Contrôler la présence du contrat signé et des annexes."
           },
           {
-            "image": { "src": "/image/screenshot/perso/perso-6.svg", "alt": "Accéder au dossier contractuel" },
+            "image": { "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/perso/perso-6.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwZXJzby9wZXJzby02LnN2ZyIsImlhdCI6MTc1NTg3MjA2NCwiZXhwIjoxNzg3NDA4MDY0fQ.WaEYB_C2jlhCLcSLMmnBJCdg6H2F-XP_pu7lVNP8Ack", "alt": "Accéder au dossier contractuel" },
             "caption": "Ouvrir le sous-dossier « Dossier contractuel »."
           },
           {
-            "image": { "src": "/image/screenshot/perso/perso-8.svg", "alt": "Vérifier le contrat signé" },
+            "image": { "src": "https://qksurgwkyrszihrrjkpz.supabase.co/storage/v1/object/sign/perso/perso-8.svg?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV9hNjMyZGZlZC1kNThhLTQyNGItOTcwOC02MWVkMzVjY2Q3ZDYiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwZXJzby9wZXJzby04LnN2ZyIsImlhdCI6MTc1NTg3MjA4MiwiZXhwIjoxNzg3NDA4MDgyfQ.AwqVXUJj6O4N8-NZP7WzwhKqgm3Zu6lAveQw_sxsrP8", "alt": "Vérifier le contrat signé" },
             "caption": "Contrôler la présence du contrat signé et des annexes."
           }
        

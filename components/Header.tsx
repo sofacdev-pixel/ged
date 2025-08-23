@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
-import { Menu, X, Search as SearchIcon, Moon, SunMedium } from "lucide-react";
+import { Search as SearchIcon, Moon, SunMedium } from "lucide-react";
 
 type NavItem = { title: string; href: string };
 
@@ -17,7 +17,6 @@ const nav: NavItem[] = [
 ];
 
 function LogoMark() {
-  // Simple minimalist logomark (no image files needed)
   return (
     <div className="relative h-6 w-6 rounded-md border border-black/10 dark:border-white/10">
       <div className="absolute inset-0 rounded-md bg-gradient-to-br from-black/5 to-black/0 dark:from-white/10 dark:to-transparent" />
@@ -29,7 +28,6 @@ function ThemeToggle() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    // initialize from current document state
     setIsDark(document.documentElement.classList.contains("dark"));
   }, []);
 
@@ -59,7 +57,6 @@ function SearchButton() {
       aria-label="Ouvrir la recherche"
       title="Ouvrir la recherche (⌘K)"
       onClick={() => {
-        // Hook into your command palette if you have one
         window.dispatchEvent(new CustomEvent("open-command-palette"));
       }}
     >
@@ -74,12 +71,6 @@ function SearchButton() {
 
 export default function Header() {
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
-
-  // Close mobile menu on route change
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -88,64 +79,17 @@ export default function Header() {
         <div className="flex items-center gap-3">
           <Link href="/" className="flex items-center gap-2">
             <LogoMark />
-            <span className="text-sm font-semibold tracking-tight">SOFAGED - Documentations</span>
+            <span className="text-sm font-semibold tracking-tight">
+              SOFAGED - Documentations
+            </span>
           </Link>
         </div>
 
-
-
-        {/* Right: actions */}
+        {/* Right: actions (desktop only) */}
         <div className="hidden items-center gap-2 md:flex">
           <SearchButton />
           <ThemeToggle />
         </div>
-
-        {/* Mobile toggle */}
-        <button
-          type="button"
-          className="inline-flex items-center justify-center rounded-md border p-2 md:hidden"
-          aria-label="Ouvrir le menu"
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-        </button>
-      </div>
-
-      {/* Mobile sheet */}
-      <div
-        className={clsx(
-          "md:hidden",
-          open ? "block" : "hidden"
-        )}
-      >
-        <div className="border-t px-4 py-3">
-          <div className="flex items-center gap-2">
-            <SearchButton />
-            <ThemeToggle />
-          </div>
-        </div>
-        <nav className="border-t px-2 py-2">
-          {nav.map((item) => {
-            const active =
-              pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                aria-current={active ? "page" : undefined}
-                className={clsx(
-                  "block rounded-md px-3 py-2 text-sm",
-                  active
-                    ? "bg-accent font-medium"
-                    : "text-muted-foreground hover:bg-muted/50 hover:text-foreground"
-                )}
-              >
-                {item.title}
-              </Link>
-            );
-          })}
-        </nav>
       </div>
     </header>
   );
